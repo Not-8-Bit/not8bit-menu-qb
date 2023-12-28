@@ -28,6 +28,22 @@ Unlimited text rows. The limit is what looks good.
 The image is on the right now.
 ```
 
+# How To Use
+## Step 1
+```
+Change 
+
+exports['qb-menu']
+
+to
+
+exports['not8bit-menu-qb']
+```
+## Step 2
+```
+Add icon = 'item.name', where you want to use the image and pass in the name of the item you want to show in your event trigger.
+```
+
 ## EXAMPLE MENU
 ```
 RegisterNetEvent('not8bit-script:client:openAnotherMenuOrSomething', function()
