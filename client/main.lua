@@ -1,7 +1,4 @@
 local QBCore = exports['qb-core']:GetCoreObject()
--- Redundant?
---RegisterNetEvent('QBCore:Client:UpdateObject', function() QBCore = exports['qb-core']:GetCoreObject() end)
-
 local headerShown = false
 local sendData = nil
 

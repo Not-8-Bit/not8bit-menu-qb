@@ -53,21 +53,6 @@ const cancelMenu = () => {
     return closeMenu();
 };
 
-// window.addEventListener("message", (event) => {
-//     const data = event.data;
-//     const buttons = data.data;
-//     const action = data.action;
-//     switch (action) {
-//         case "OPEN_MENU":
-//         case "SHOW_HEADER":
-//             return openMenu(buttons);
-//         case "CLOSE_MENU":
-//             return closeMenu();
-//         default:
-//             return;
-//     }
-// });
-
 window.addEventListener("message", ({ data }) => {
     const { action, data: buttons } = data;
     switch (action) {
@@ -80,13 +65,6 @@ window.addEventListener("message", ({ data }) => {
             return;
     }
 });
-
-// document.onkeyup = function (event) {
-//     const charCode = event.key;
-//     if (charCode == "Escape") {
-//         cancelMenu();
-//     }
-// };
 
 document.onkeyup = (event) => {
     if (event.key === "Escape") cancelMenu();
