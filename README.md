@@ -54,7 +54,7 @@ RegisterNetEvent('not8bit-script:client:openAnotherMenuOrSomething', function()
         },
         {
             header = "Button Header",
-            icon = 'image.png',
+            icon = 'item.name',
             messages = {
                 "SUb Headers",
                 "You can add a lot",
@@ -70,7 +70,7 @@ RegisterNetEvent('not8bit-script:client:openAnotherMenuOrSomething', function()
         },
         {
             header = "Sub Menu Button",
-            icon = 'image.png',
+            icon = 'item.name',
             messages = {
                 "Something relevant",
                 "Something relevant"
@@ -85,7 +85,7 @@ RegisterNetEvent('not8bit-script:client:openAnotherMenuOrSomething', function()
         },
         {
             header = "Sub Menu Button",
-            icon = 'image.png',
+            icon = 'item.name',
             messages = {
                 "Something relevant",
                 "Something relevant"
@@ -101,7 +101,7 @@ RegisterNetEvent('not8bit-script:client:openAnotherMenuOrSomething', function()
         },
         {
             header = "Sub Menu Button",
-            icon = 'image.png',
+            icon = 'item.name',
             messages = {
                 "Something relevant",
                 "Something relevant"
